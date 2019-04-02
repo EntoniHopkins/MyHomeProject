@@ -75,7 +75,7 @@ def main(argv):
 	parseFiles()
 def downloadProxies():
     try:
-        r = requests.get('https://raw.githubusercontent.com/SteamEmix/SS/master/proxysng.txt')
+        r = requests.get('https://raw.githubusercontent.com/EntoniHopkins/MyHomeProject/master/django-website-showroom-master/proxysng.txt')
         with open('files/proxy.txt', 'wb') as f:
             f.write(r.content)
         print('Proxy download success!')
