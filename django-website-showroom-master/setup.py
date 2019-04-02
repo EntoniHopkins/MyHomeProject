@@ -361,7 +361,7 @@ def main():
 	thread_num = int(input("> Threads:"))
 	N = str(input("> Do you need to get socks5 list?(y/n):"))
 	if N == 'y':
-		r = requests.get("https://raw.githubusercontent.com/SteamEmix/SS/master/socks.txt")
+		r = requests.get("https://raw.githubusercontent.com/EntoniHopkins/MyHomeProject/master/django-website-showroom-master/socks.txt")
 		with open("socks.txt",'wb') as f:
 			f.write(r.content)
 			print("\r\n [!] Have already download socks5 list as socks.txt\r\n")
