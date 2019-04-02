@@ -9,22 +9,6 @@ import threading
 import sys
 import ssl
 
-print ('''
-       /////    /////    /////////////
-      CCCCC/   CCCCC/   | CC-attack |/
-     CC/      CC/       |-----------|/ 
-     CC/      CC/       |  Layer 7  |/ 
-     CC/////  CC/////   | ddos tool |/ 
-      CCCCC/   CCCCC/   |___________|/
->--------------------------------------------->
-Python3 version 1.7 (Add Post Attack Mode)
-                            C0d3d by Lee0n123
-===============================================
-       --> Use 443 Port Auto Enable SSL <--
-                      TOS:
-         Don't Attack Government Website.
-===============================================''')
-
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1",
 			"Mozilla/5.0 (Android; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1",
 			"Mozilla/5.0 (WindowsCE 6.0; rv:2.0.1) Gecko/20100101 Firefox/4.0.1",
