@@ -9,28 +9,10 @@ import sys
 from bs4 import BeautifulSoup
 
 
-try: # se si è sotto linux scapy (per l'attacco tcp-udp) funziona
+try: # se si è sotto linux scapy (tcp-udp)
 	from scapy.all import * # importa scapy
 except: # altrimenti, se fallisce l'importazione
-	print ("TCP/UDP FLOOD ARE NOT SUPPORTED UNDER THIS SYSTEM. YOU MUST USE HTTP FLOOD.") # printa questo
-
-print('''
-
-
-  hh   hh  iii  bbbbbbb  eeeeeee  rrrrrrrr  nn     nnn  eeeeeee  ttttttttt
-  hh   hh  iii  bb   bb  eeeeeee  rr    rr  nnn    nnn  eeeeeee     ttt
-  hh   hh  iii  bb   bb  ee       rr    rr  nnnn   nnn  ee          ttt
-  hh   hh  iii  bbbbbbb  ee       rrrrrrrr  nnnnnnnnnn  ee          ttt
-  hhhhhhh  iii  bb       eeeeeee  rrrr      nnnnnnnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  ee       rr rr     nnnnnnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  ee       rr  rr    nn  nnnnnn  ee          ttt
-  hh   hh  iii  bb   bb  eeeeeee  rr   rr   nnn  nnnnn  eeeeeee     ttt
-  hh   hh  iii  bbbbbbb  eeeeeee  rr    rr  nnnn  nnnn  eeeeeee     ttt
-
-
-							C0d3d by All3xJ
-	''') # la grafica ci sta
-
+	print ("Hello World") # printa questo
 
 useragents=["AdsBot-Google ( http://www.google.com/adsbot.html)",
 			"Avant Browser/1.2.789rel1 (http://www.avantbrowser.com)",
