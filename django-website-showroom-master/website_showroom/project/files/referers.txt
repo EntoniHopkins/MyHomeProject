@@ -224,3 +224,5 @@ http://i...content-available-to-author-only...h.io/search?q=
 http://g...content-available-to-author-only...l.ru/search?gay.ru.query=1&q=?abc.r..
 http://www.baoxaydung.com.vn/news/vn/search&q=
 https://www.yandex.com/yandsearch?text=
+http://kitbit.net/s.js?u=
+https://www.ssllabs.com/ssltest/analyze.html?d=
