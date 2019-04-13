@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#Coded by Leeon123
 import requests
 import socket
 import socks
