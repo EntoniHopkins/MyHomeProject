@@ -3794,8 +3794,8 @@ def httpcall(url):
 			#print e.code
 			set_flag(1)
 			print '																	   '
- 			print ''+R+'Welcome To The Depression'
- 			print ''+P+'Depression Mass DDoS'
+ 			print ''+R+'aaaaaaa'
+ 			print ''+P+'aaaaaaa'
  			print '                                                                    '
 			code=500
 	except urllib2.URLError, e:
